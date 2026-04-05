@@ -18,6 +18,7 @@ public
 !.vscode/extensions.json
 .idea
 .DS_Store
+.hugo_build.lock
 *.suo
 *.ntvs*
 *.njsproj
