@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="mb-4">
+    <h2>About Me <span class="text-secondary fst-italic fs-4">{{ .Site.Params.quote }}</span></h2>
+
+    {{ $about := site.GetPage "section" "about" }}
+
+    <div class="mt-3">
+        <div class="row">
+            <div class="col-10">{{ $about.Content }}</div>
+            {{ with $about.Params.image }}
+            {{ $img := $about.Resources.GetMatch . }}
+            {{ with $img }}
+            <div class="col-2">
+                <img src="{{ .RelPermalink }}" height="380" />
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<div class="mb-4">
+    <h2 class="mb-3">Personal Projects</h2>
+
+    {{ range (where .Site.RegularPages "Section" "projects") }}
+    {{ partial "project-summary" . }}
+    {{ end }}
+
+</div>
+{{ end }}

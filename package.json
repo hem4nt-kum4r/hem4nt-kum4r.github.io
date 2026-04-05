@@ -1,0 +1,14 @@
+{
+  "name": "deploy-hem4nt-kumar.github.io",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "hugo build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Hemant Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "6.3.0"
+  }
+}

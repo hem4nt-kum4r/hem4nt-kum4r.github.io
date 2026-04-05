@@ -1,0 +1,19 @@
+<div 
+  class="sticky-top"
+  style="background-image: url('/images/mountain-reduced.svg'); background-size: 100%, auto; background-position: 50% 40%;">
+  {{/*  style="background-image: url('/images/mountain.svg'); background-size: 100%, auto; background-position: 50% 50%;">  */}}
+  <div class="container">
+    <div class="navbar pt-5 pb-4">
+      <div>
+        <a href="/" class="navbar-brand  text-light">
+          <h1>{{ .Site.Title }}</h1>
+          <h5>{{ .Site.Params.subtitle }}</h5>
+        </a>
+      </div>
+      <div>
+        <a class="text-light" href="{{ .Site.Params.github }}" target="_blank"><i class="fs-1 fa-brands fa-github"></i></a>
+        <a class="text-light" href="{{ .Site.Params.linkedin }}" target="_blank"><i class="fs-1 fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

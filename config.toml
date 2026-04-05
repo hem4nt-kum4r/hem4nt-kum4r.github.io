@@ -1,0 +1,31 @@
+baseURL = "https://hem4nt-kum4r.github.io/"
+languageCode = "en-us"
+title = "Hemant Kumar"
+
+enableRobotsTXT = true
+
+[params]
+  subtitle = "Senior Software Engineer II @ Alphonso Labs"
+  quote = "Quit, don't quit. Noodles, don't noodles"
+  description = "Distributed systems engineer building scalable data platforms."
+  author = "Hemant Kumar"
+  github = "https://github.com/hem4nt-kum4r"
+  linkedin = "https://www.linkedin.com/in/hem4nt-kum4r/"
+
+[taxonomies]
+  tag = "tags"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 3

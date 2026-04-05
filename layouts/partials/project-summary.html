@@ -1,0 +1,25 @@
+<div class="mb-3">
+    <div>
+        <h4 class="d-inline">{{ .Title }}</h4>
+        {{ with .Params.github }}
+        {{ partial "github.html" . }}
+        {{ end }}
+
+        {{ with .Params.live }}
+        {{ partial "live.html" . }}
+        {{ end }}
+    </div>
+    <div>
+        <p>
+            {{ .Summary }} <a href="{{ .RelPermalink }}">read more</a>
+        </p>
+        {{ $page := . }}
+        <div class="">
+        {{ range .Params.thumbnails }}
+            {{ with $page.Resources.GetMatch . }}
+                <img class="img-thumbnail" style="width:20rem" src="{{ .RelPermalink }}">
+            {{ end }}
+        {{ end }}
+        </div>
+    </div>
+</div>
