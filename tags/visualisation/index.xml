@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation on Hemant Kumar</title>
+    <link>https://hem4nt-kum4r.github.io/tags/visualisation/</link>
+    <description>Recent content in Visualisation on Hemant Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hem4nt-kum4r.github.io/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis Cluster Host View</title>
+      <link>https://hem4nt-kum4r.github.io/projects/redis-cluster-host-view/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://hem4nt-kum4r.github.io/projects/redis-cluster-host-view/</guid>
+      <description>Managing and expanding a Redis cluster can be confusing, especially when replicas are identified only by IP addresses. To simplify this, a browser-based tool was developed that visually maps masters and replicas, shows their locations, and tracks their status in real time. It generates the cluster topology as a Mermaid flowchart and runs entirely client-side without sending data externally.</description>
+    </item>
+  </channel>
+</rss>

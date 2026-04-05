@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Hemant Kumar</title>
+    <link>https://hem4nt-kum4r.github.io/</link>
+    <description>Recent content in Home on Hemant Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hem4nt-kum4r.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis Cluster Host View</title>
+      <link>https://hem4nt-kum4r.github.io/projects/redis-cluster-host-view/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://hem4nt-kum4r.github.io/projects/redis-cluster-host-view/</guid>
+      <description>Managing and expanding a Redis cluster can be confusing, especially when replicas are identified only by IP addresses. To simplify this, a browser-based tool was developed that visually maps masters and replicas, shows their locations, and tracks their status in real time. It generates the cluster topology as a Mermaid flowchart and runs entirely client-side without sending data externally.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://hem4nt-kum4r.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hem4nt-kum4r.github.io/about/</guid>
+      <description>&lt;p&gt;I build systems that scale.&lt;/p&gt;&#xA;&lt;p&gt;For over 7 years, I’ve been designing distributed platforms and high-performance data systems in the AdTech space—engineering solutions that handle tens of thousands of requests per second, automate complex workflows, and move large-scale data reliably across cloud environments.&lt;/p&gt;&#xA;&lt;p&gt;I’ve led migrations from on-prem infrastructure to AWS and Databricks, built microservices deployed on Kubernetes, and optimized Spark workloads for performance and efficiency. I care deeply about architecture, clean abstractions, and building systems that are not just functional—but resilient and future-proof.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
