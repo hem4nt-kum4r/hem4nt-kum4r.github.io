@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume on Hemant Kumar</title>
+    <link>https://hem4nt-kum4r.github.io/tags/resume/</link>
+    <description>Recent content in Resume on Hemant Kumar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hem4nt-kum4r.github.io/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume Template</title>
+      <link>https://hem4nt-kum4r.github.io/projects/resume-template/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://hem4nt-kum4r.github.io/projects/resume-template/</guid>
+      <description>Most of the resume template available online looked a little too fancy, cramped with a lot of information and less structured. I have tried to keep a formal and simple format with focus on make the information gathering linear and predictable.</description>
+    </item>
+  </channel>
+</rss>

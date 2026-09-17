@@ -16,6 +16,13 @@
       <description>Managing and expanding a Redis cluster can be confusing, especially when replicas are identified only by IP addresses. To simplify this, a browser-based tool was developed that visually maps masters and replicas, shows their locations, and tracks their status in real time. It generates the cluster topology as a Mermaid flowchart and runs entirely client-side without sending data externally.</description>
     </item>
     <item>
+      <title>Resume Template</title>
+      <link>https://hem4nt-kum4r.github.io/projects/resume-template/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://hem4nt-kum4r.github.io/projects/resume-template/</guid>
+      <description>Most of the resume template available online looked a little too fancy, cramped with a lot of information and less structured. I have tried to keep a formal and simple format with focus on make the information gathering linear and predictable.</description>
+    </item>
+    <item>
       <title>About Me</title>
       <link>https://hem4nt-kum4r.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
